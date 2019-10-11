@@ -1,0 +1,33 @@
+body{
+    background-image: url(/001.png);
+}
+a{
+    text-decoration: none;
+}
+section{
+    margin-top: 100px;
+}
+.breadcrumb-item + .breadcrumb-item::before {
+    content: ">";
+}
+.sec-dh{
+    border-bottom: 2px solid #000000;
+}
+.sec-dh .breadcrumb-item a:hover{
+    text-decoration: none;
+}
+.breadcrumb.bg-transparent{
+    margin: 0;
+}
+.sec-tit{
+    border-bottom: 1px solid #000;
+}
+.sec-tit span{
+    font-size: 26px;
+}
+.sec-cont{
+    font-size: 18px;
+}
+footer button{
+    width: 100px;
+}

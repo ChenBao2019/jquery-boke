@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>管理界面</title>
+    <link rel="stylesheet" href="/back/operation.css">
+    <script src="/jquery-3.2.1.js"></script>
+</head>
+<body>
+<div class="awapper">
+    <!-- 头部 -->
+	<header></header>
+    <!-- 中部 -->
+    <section>
+        <!-- 导航栏 -->
+        <div class="bar">
+            <div class="b-lef">
+                <span>菜单</span>
+            </div>
+            <!-- 导航栏 -->
+            <div class="b-rig">
+                <span><a href="./index.html">首页</a> > 博文管理</span>
+            </div>
+             <div class="clear"></div>
+        </div>
+        <!-- 主体内容 -->
+        <div class="sec">
+            <!-- 菜单模块 -->
+            <article></article>
+            <!-- 右侧内容模块-->
+            <div class="cont">
+                <!-- 查询模块 -->
+                <div class="sel">
+                    <div class="del">
+                        <label for="aid">文章编号：</label>
+                        <input type="text" id="aid" placeholder="请输入文章编号">
+                        <button>查询</button>
+                        <div id="selects"></div>
+                    </div>
+                    <p><a href="./add.html">新增作品</a></p>
+                </div>					
+                <!-- 列表显示模块 -->
+                <div id="list">
+                    <table border="1">
+                        <tr>
+                            <th>编号</th>
+                            <th>标题</th>
+                            <th>简介</th>
+                            <th>时间</th>
+                            <th>操作</th>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+<script src="/back/back-fun.js"></script>
+<script src="/back/header.js"></script>
+<script src="/back/article.js"></script>
+<script src="/back/operation.js"></script>
+</body>
+</html>

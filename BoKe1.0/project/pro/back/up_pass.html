@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>修改密码</title>
+    <link rel="stylesheet" href="/back/up_pass.css"/>
+    <script src="/jquery-3.2.1.js"></script>
+</head>
+<body>
+<div class="wapper">
+    <!-- 头部 -->
+    <header></header>
+    <!--修改密码-->
+    <section>
+        <div class="pass">
+            <p>
+                <label for="sname">用户名：</label>
+                <!--将用户名设为只读属性-->
+                <input type="text" id="sname" readonly/>
+            </p>
+            <p>
+                <label for="spwd">密码：</label>
+                <input type="text" id="spwd"/>
+                <p id="mpwd"></p>
+            </p>
+            <button id="uppass">提交修改</button>
+        </div>
+    </section>
+</div>
+<script src="/back/back-fun.js"></script>
+<script src="/back/header.js"></script>
+<script src="/back/up_pass.js"></script>
+</body>
+</html>

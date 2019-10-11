@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/back/login.css">
+	<script src="/jquery-3.2.1.js"></script>
+    <title>登录界面</title>
+</head>
+<body>
+    <div class="reg">
+		<div class="reg-head">
+			<!-- 头像 -->
+			<img src="/01.png" alt="">
+		</div>
+		<div class="reg-footer">
+			<table>
+				<tr>
+					<td>邮箱：</td>
+					<td>
+						<span class="msg" id="msg1"></span>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<input type="text" id="sname" placeholder="请输入用户名">
+					</td>
+				</tr>
+				<tr>
+					<td>密码：</td>
+					<td><span class="msg" id="msg2"></span></td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<input type="password" id="spwd" placeholder="请输入密码">
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<input type="hidden" id="islogin" value="false">
+						<button>登录</button>
+					</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+<script src="/back/back-fun.js"></script>
+<script src="/back/login.js"></script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+body{
+    background-image: url(/001.png);
+}
+.bg-hei{
+    background-color: #A8AEA9;
+}
+.font-color{
+    color: #ffffff;
+    font-size: 1.3rem;
+}
+.border1{
+    border-radius: 5px;
+}
+.breadcrumb-item + .breadcrumb-item::before {
+    content: ">";
+}

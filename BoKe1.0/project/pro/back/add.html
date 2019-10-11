@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>新增博文</title>
+    <link rel="stylesheet" href="/back/add.css">
+	<script src="/jquery-3.2.1.js"></script>
+</head>
+<body>
+<div class="wapper">
+	<!-- 头部 -->
+	<header></header>
+    <!-- 中部 -->
+	<section>
+		<!-- 导航栏 -->
+		<div class="bar">
+			<div class="b-lef">
+				<span>菜单</span>
+			</div>
+			<!-- 导航栏 -->
+			<div class="b-rig">
+				<p><a href="./index.html">首页</a> > <a href="./operation.html">博文管理</a> > 新增作品 </p>
+			</div>
+			<div class="clear"></div>
+		</div>
+		<div class="sec">
+			<!-- 菜单模块 -->
+			<article></article>
+			<!-- 右侧内容模块-->
+			<div class="cont">
+				<table border="1">
+					<tr>
+						<th>
+							<label for="title">标&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;题：</label>
+						</th>
+						<td colspan="2">
+							<input type="text" id="title""><span id="tit"></span>
+						</td>
+					</tr>
+					<tr>
+						<th>
+							<label for="simple">简&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;介：</label>
+						</th>
+						<td colspan="2">
+							<input type="text" id="simple""><span id="sim"></span>
+						</td>
+					</tr>
+					<tr>
+						<th valign="top">
+							<label for="content">具体内容：</label>
+						</th>
+						<td colspan="2">
+							<textarea id="cont" cols="26" rows="20""></textarea><span id="con"></span>
+						</td>
+					</tr>
+					<tr align="center">
+						<td colspan="2">
+							<button id="add">添加</button>
+						</td>
+						<input type="hidden" id="isadd" value="false">
+					</tr>
+				</table>
+			</div>
+		</div>
+	</section>
+</div>
+<script src="/back/back-fun.js"></script>
+<script src="/back/header.js"></script>
+<script src="/back/article.js"></script>
+<script src="/back/add.js"></script>
+</body>
+</html>

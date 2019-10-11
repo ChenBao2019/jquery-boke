@@ -1,0 +1,152 @@
+*{
+	margin:0;
+	padding: 0;
+}
+.clear{
+	clear: both;
+}
+a{
+	text-decoration: none;
+	color: #fff;
+}
+ul li{
+	list-style-type: none;
+}
+.clear{
+	clear: both;
+}
+.wapper{
+	width: 100%;
+}
+header{
+	width: 100%;
+	height: 80px;
+	margin:0 auto;
+	background-color: #000;
+	padding-left: 50px;
+}
+.log{
+	font-size: 20px;
+	float: left;
+	color: #fff;
+	line-height: 80px;
+}
+.log a{
+	color: #fff;
+}
+.admin{
+	float: right;
+	margin-right: 40px;
+}
+.admin ul li{
+	float: left;
+	list-style-type: none;
+	margin-right: 40px;
+	line-height: 80px;
+}
+.admin ul li a{
+	font-size: 16px;
+}
+section{
+	width: 100%;
+	position: relative;
+}
+section  .bar{
+	height: 50px;
+	background-color: #F2F2F2;
+	border-bottom: 2px solid #E5E5E5;
+	
+}
+section  .bar .b-lef{
+	width: 208px;
+	height: 50px;
+	border-right:  2px solid #E5E5E5;
+	float: left;
+	line-height: 50px;
+	color: #000;
+	font-size: 22px;
+}
+section  .bar .b-lef span{
+	margin-left: 20px;
+}
+section  .bar .b-rig{
+	height: 50px;
+	line-height: 50px;
+	color: #000;
+	float: left;
+}
+section  .bar .b-rig span{
+	margin-left: 20px;
+}
+
+section .sec{
+	width: 100%；
+}
+.sec .menu{
+	width: 208px;
+	height: 400px;
+	background-color:  #F2F2F2;
+	border-right:  2px solid #E5E5E5;
+	position: absolute;
+	top: 52px;
+	left: 0;
+}
+.menu .fot{
+	width: 100%;
+	padding-top: 20px;
+}
+.menu .fot li{
+	width: 200px;
+	height: 40px;
+	background-color: #fff;
+	text-align: center;
+	line-height: 40px;
+	margin-bottom: 20px;
+}
+.menu .fot li a{
+	color: #000;
+}
+.sec .cont{
+	height: 200px;
+	margin-left: 210px;
+}
+.sec .cont .quick{
+	width: 100%;
+	height: 90px;
+	background-color: #F2F2F2;
+	border-bottom: 2px solid #E5E5E5;
+}
+.cont .quick p{
+	margin:0 0 20px 20px;
+	padding-top: 20px;
+	color: #000;
+	font-size: 16px;
+	font-weight: bold;
+}
+.cont .quick .add{
+	margin-left: 20px;
+}
+.cont  .add  li a{
+	color: red;
+	font-size: 16px;
+	float: left;
+}
+.sec .cont .ess{
+	padding:20px 0 0 30px
+}
+.cont .ess p{
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+.cont .ess table{
+	margin-left: 50px;
+}
+.cont .ess table tr{
+	height: 50px;
+}
+.cont .ess table .right{
+	text-align: right;
+}
+.cont .ess table span{
+	font-weight: bold;
+}

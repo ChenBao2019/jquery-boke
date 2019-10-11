@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>详情页</title>
+    <link rel="stylesheet" href="/bootstrap.css"/>
+    <script src="/jquery-3.2.1.js"></script>
+    <script src="/popper.min.js"></script>
+	<script src="/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="/front/details.css">
+</head>
+<body>
+<div class="w-100">
+	<header class="w-100"></header>
+	<div class="container ">
+		<!-- 博文具体内容 -->
+		<section>
+			<!--博文导航和标题-->
+            <div class="sec-dh">
+                <ul class="breadcrumb bg-transparent">
+                    <li class="breadcrumb-item">
+                        <a href="index.html" class="text-muted">首页</a>
+                    </li>
+                    <li class="breadcrumb-item">
+                        <a href="javascript:;" class="text-muted">详情页</a>
+                    </li>
+                    <li class="breadcrumb-item" id="p1">
+                        <span>博客文章的标题</span>
+                    </li>
+                </ul>
+            </div>
+			<!-- 标题，发布时间，评论个数 -->
+			<div class="sec-head">
+                <div class="sec-tit p-3" id="p2">
+                    <span>博客文章的标题</span>
+                </div>
+                <div class="sec-time p-3">
+                    <ul class="nav justify-content-between border">
+                        <li id="p3">发布时间:2019-09-20 1:20</li>
+                        <li id="giveCount">点赞数0</li>
+                        <li id="msg">评论 20</li>
+                    </ul>
+                </div>
+            </div>
+			<!-- 博文的具体内容 -->
+			<div class="sec-cont p-2" id="p4"></div>
+		</section>
+		<footer class="mt-3 p-2 pb-5" id="fot">
+            <button>点赞</button>
+		</footer>
+	</div>
+</div>
+<script src="/front/fun.js"></script>
+<script src="/front/header.js"></script>	
+<script src="/front/details.js"></script>
+</body>
+</html>

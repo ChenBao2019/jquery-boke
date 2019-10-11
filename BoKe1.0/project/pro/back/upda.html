@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>修改界面</title>
+    <link rel="stylesheet" href="/back/upda.css">
+    <script src="/jquery-3.2.1.js"></script>
+</head>
+<body>
+<div class="wapper">
+    <!-- 头部 -->
+	<header></header>
+    <!-- 中部 -->
+    <section>
+        <!-- 导航栏 -->
+        <div class="bar">
+            <div class="b-lef">
+                <span>菜单</span>
+            </div>
+            <!-- 导航栏 -->
+            <div class="b-rig">
+                <p><a href="./index.html">首页</a> > <a href="./operation.html">博文管理</a> > <span>修改博文</span> </p>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <!-- 主体内容 -->
+        <div class="sec">
+            <!-- 菜单模块 -->
+            <article></article>
+            <!-- 修改模块 -->
+            <div class="tab">
+                <table border="1">
+                    <tr>
+                        <th>
+                            <label for="title">标&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;题：</label>
+                        </th>
+                        <td colspan="2">
+                            <input type="text" id="up_title""><span id="up_tit"></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            <label for="simple">简&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;介：</label>
+                        </th>
+                        <td colspan="2">
+                            <input type="text" id="up_simple"><span id="up_sim"></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th valign="top">
+                            <label for="content">具体内容：</label>
+                        </th>
+                        <td colspan="2">
+                            <textarea id="up_cont" cols="26" rows="20""></textarea><span id="up_con"></span>
+                        </td>
+                    </tr>
+                    <tr align="center">
+                        <td colspan="2">
+                            <button id="updates">修改</button>
+                        </td>
+                        <input type="hidden" id="isupd" value="false">
+                        <input type="hidden" id="up_aid">
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </section>
+</div>
+<script src="/back/back-fun.js"></script>
+<script src="/back/header.js"></script>
+<script src="/back/article.js"></script>
+<script src="/back/upda.js"></script>
+</body>
+</html>

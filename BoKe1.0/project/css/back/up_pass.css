@@ -1,0 +1,84 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.clear{
+    clear: both;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+ul li{
+    list-style-type: none;
+}
+.clear{
+    clear: both;
+}
+.wapper{
+    width: 100%;
+}
+header{
+    width: 100%;
+    height: 80px;
+    margin:0 auto;
+    background-color: #000;
+    padding-left: 50px;
+}
+.log{
+    font-size: 20px;
+    float: left;
+    color: #fff;
+    line-height: 80px;
+}
+.log a{
+    color: #fff;
+}
+.admin{
+    float: right;
+    margin-right: 40px;
+}
+.admin ul li{
+    float: left;
+    list-style-type: none;
+    margin-right: 40px;
+    line-height: 80px;
+}
+.admin ul li a{
+    font-size: 16px;
+}
+section{
+    width: 100%;
+    margin-top: 50px;
+}
+.pass{
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #817561;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 2px #000;
+}
+.pass p{
+    margin-bottom: 30px;
+    font-size: 18px;
+    color: #ffffff;
+}
+.pass p input{
+    width: 200px;
+    height: 30px;
+    font-size: 16px;
+}
+.pass p:nth-child(2) input{
+    margin-left: 15px;
+}
+.pass button{
+    width: 150px;
+    height: 30px;
+    margin-left: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 3px;
+}
